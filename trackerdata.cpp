@@ -108,7 +108,7 @@ int main()
 	destination.sin_family = AF_INET;
 	destination.sin_port = htons(5005);
 
-	inet_pton(AF_INET, "192.168.216.10", &destination.sin_addr); //change adress to auto detect later?
+	inet_pton(AF_INET, "123.456.789.00", &destination.sin_addr); //change adress to auto detect later?
 
 
 	vr::EVRInitError error = vr::VRInitError_None;
